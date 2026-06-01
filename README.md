@@ -7,3 +7,4 @@ Modern glassmorphism login page built with Tailwind CSS.
 - Tailwind CSS
 
 ## Preview
+![Preview](Preview.png)
