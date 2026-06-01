@@ -1,4 +1,4 @@
-# Glassmorphism Login UI ✒
+ # Glassmorphism Login UI ✒
 Modern glassmorphism login page built with Tailwind CSS.
 
 
@@ -7,4 +7,4 @@ Modern glassmorphism login page built with Tailwind CSS.
 - Tailwind CSS
 
 ## Preview
-![Preview](Preview.png)
+![Preview](Preview.jpg)
