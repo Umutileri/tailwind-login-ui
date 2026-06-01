@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Login Page</title>
+  </head>
+  <div
+    class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_35%,#63e_100%)]"
+  ></div>
+  <body class="h-screen flex justify-center items-center font-[roboto]">
+    <section
+      id="login"
+      class="backdrop-blur-3xl border border-white/10 p-20 px-24 rounded-4xl shadow-2xl shadow-black/40"
+    >
+      <div id="card" class="flex flex-col">
+        <div
+          id="card-header"
+          class="text-white text-center gap-1 flex flex-col"
+        >
+          <h1 class="text-2xl font-extrabold">Login to Your Account</h1>
+          <p class="text-gray-500 font-stretch-50%">
+            Enter your email below to login to your account
+          </p>
+        </div>
+        <div id="inputs" class="flex flex-col text-white mt-8">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="m@example.com"
+            class="background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%) mt-2 py-3 rounded-xl border border-[#55555554] px-3 italic duration-200 focus:border-[#b4b4b454] outline-none focus:outline backdrop-blur-3xl"
+          />
+
+          <label for="password" class="mt-8">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="***********"
+            class="background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] mt-2 py-3 rounded-xl border border-[#55555554] px-3 italic duration-200 focus:border-[#b4b4b454] outline-none focus:outline backdrop-blur-xl"
+          />
+        </div>
+        <div class="mt-12 flex flex-col gap-8 font-medium">
+          <button
+            class="text-[#111111] bg-gray-100 rounded-4xl py-2 hover:cursor-pointer hover:bg-gray-300 duration-200"
+          >
+            Login
+          </button>
+          <button
+            class="text-gray-100 bg-[#363636] rounded-4xl py-2 hover:cursor-pointer hover:bg-[#3c3c3c] duration-200"
+          >
+            Login with Google
+          </button>
+          <p class="text-center text-gray-400">
+            Don't have an account?
+            <a href="#"
+              ><span
+                class="font-bold duration-75 text-gray-300 hover:text-white"
+                >Sign up</span
+              ></a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
